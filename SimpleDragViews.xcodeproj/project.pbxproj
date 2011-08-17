@@ -1,0 +1,290 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6143AACF13FB940E0089B5C8 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6143AACE13FB940E0089B5C8 /* UIKit.framework */; };
+		6143AAD113FB940E0089B5C8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6143AAD013FB940E0089B5C8 /* Foundation.framework */; };
+		6143AAD313FB940E0089B5C8 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6143AAD213FB940E0089B5C8 /* CoreGraphics.framework */; };
+		6143AAD913FB940E0089B5C8 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6143AAD713FB940E0089B5C8 /* InfoPlist.strings */; };
+		6143AADB13FB940E0089B5C8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6143AADA13FB940E0089B5C8 /* main.m */; };
+		6143AADF13FB940E0089B5C8 /* SimpleDragViewsAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6143AADE13FB940E0089B5C8 /* SimpleDragViewsAppDelegate.m */; };
+		6143AAE213FB940E0089B5C8 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6143AAE013FB940E0089B5C8 /* MainWindow.xib */; };
+		6143AAE513FB940E0089B5C8 /* SimpleDragViewsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6143AAE413FB940E0089B5C8 /* SimpleDragViewsViewController.m */; };
+		6143AAE813FB940E0089B5C8 /* SimpleDragViewsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6143AAE613FB940E0089B5C8 /* SimpleDragViewsViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		6143AACA13FB940E0089B5C8 /* SimpleDragViews.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SimpleDragViews.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6143AACE13FB940E0089B5C8 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		6143AAD013FB940E0089B5C8 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		6143AAD213FB940E0089B5C8 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		6143AAD613FB940E0089B5C8 /* SimpleDragViews-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SimpleDragViews-Info.plist"; sourceTree = "<group>"; };
+		6143AAD813FB940E0089B5C8 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		6143AADA13FB940E0089B5C8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		6143AADC13FB940E0089B5C8 /* SimpleDragViews-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SimpleDragViews-Prefix.pch"; sourceTree = "<group>"; };
+		6143AADD13FB940E0089B5C8 /* SimpleDragViewsAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SimpleDragViewsAppDelegate.h; sourceTree = "<group>"; };
+		6143AADE13FB940E0089B5C8 /* SimpleDragViewsAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SimpleDragViewsAppDelegate.m; sourceTree = "<group>"; };
+		6143AAE113FB940E0089B5C8 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		6143AAE313FB940E0089B5C8 /* SimpleDragViewsViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SimpleDragViewsViewController.h; sourceTree = "<group>"; };
+		6143AAE413FB940E0089B5C8 /* SimpleDragViewsViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SimpleDragViewsViewController.m; sourceTree = "<group>"; };
+		6143AAE713FB940E0089B5C8 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/SimpleDragViewsViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6143AAC713FB940E0089B5C8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6143AACF13FB940E0089B5C8 /* UIKit.framework in Frameworks */,
+				6143AAD113FB940E0089B5C8 /* Foundation.framework in Frameworks */,
+				6143AAD313FB940E0089B5C8 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6143AABF13FB940D0089B5C8 = {
+			isa = PBXGroup;
+			children = (
+				6143AAD413FB940E0089B5C8 /* SimpleDragViews */,
+				6143AACD13FB940E0089B5C8 /* Frameworks */,
+				6143AACB13FB940E0089B5C8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6143AACB13FB940E0089B5C8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6143AACA13FB940E0089B5C8 /* SimpleDragViews.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6143AACD13FB940E0089B5C8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6143AACE13FB940E0089B5C8 /* UIKit.framework */,
+				6143AAD013FB940E0089B5C8 /* Foundation.framework */,
+				6143AAD213FB940E0089B5C8 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6143AAD413FB940E0089B5C8 /* SimpleDragViews */ = {
+			isa = PBXGroup;
+			children = (
+				6143AADD13FB940E0089B5C8 /* SimpleDragViewsAppDelegate.h */,
+				6143AADE13FB940E0089B5C8 /* SimpleDragViewsAppDelegate.m */,
+				6143AAE013FB940E0089B5C8 /* MainWindow.xib */,
+				6143AAE313FB940E0089B5C8 /* SimpleDragViewsViewController.h */,
+				6143AAE413FB940E0089B5C8 /* SimpleDragViewsViewController.m */,
+				6143AAE613FB940E0089B5C8 /* SimpleDragViewsViewController.xib */,
+				6143AAD513FB940E0089B5C8 /* Supporting Files */,
+			);
+			path = SimpleDragViews;
+			sourceTree = "<group>";
+		};
+		6143AAD513FB940E0089B5C8 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6143AAD613FB940E0089B5C8 /* SimpleDragViews-Info.plist */,
+				6143AAD713FB940E0089B5C8 /* InfoPlist.strings */,
+				6143AADA13FB940E0089B5C8 /* main.m */,
+				6143AADC13FB940E0089B5C8 /* SimpleDragViews-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6143AAC913FB940E0089B5C8 /* SimpleDragViews */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6143AAEB13FB940E0089B5C8 /* Build configuration list for PBXNativeTarget "SimpleDragViews" */;
+			buildPhases = (
+				6143AAC613FB940E0089B5C8 /* Sources */,
+				6143AAC713FB940E0089B5C8 /* Frameworks */,
+				6143AAC813FB940E0089B5C8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SimpleDragViews;
+			productName = SimpleDragViews;
+			productReference = 6143AACA13FB940E0089B5C8 /* SimpleDragViews.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6143AAC113FB940D0089B5C8 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 6143AAC413FB940D0089B5C8 /* Build configuration list for PBXProject "SimpleDragViews" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 6143AABF13FB940D0089B5C8;
+			productRefGroup = 6143AACB13FB940E0089B5C8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6143AAC913FB940E0089B5C8 /* SimpleDragViews */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6143AAC813FB940E0089B5C8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6143AAD913FB940E0089B5C8 /* InfoPlist.strings in Resources */,
+				6143AAE213FB940E0089B5C8 /* MainWindow.xib in Resources */,
+				6143AAE813FB940E0089B5C8 /* SimpleDragViewsViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6143AAC613FB940E0089B5C8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6143AADB13FB940E0089B5C8 /* main.m in Sources */,
+				6143AADF13FB940E0089B5C8 /* SimpleDragViewsAppDelegate.m in Sources */,
+				6143AAE513FB940E0089B5C8 /* SimpleDragViewsViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		6143AAD713FB940E0089B5C8 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6143AAD813FB940E0089B5C8 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		6143AAE013FB940E0089B5C8 /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6143AAE113FB940E0089B5C8 /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+		6143AAE613FB940E0089B5C8 /* SimpleDragViewsViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6143AAE713FB940E0089B5C8 /* en */,
+			);
+			name = SimpleDragViewsViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6143AAE913FB940E0089B5C8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_UNIVERSAL_IPHONE_OS)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		6143AAEA13FB940E0089B5C8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_UNIVERSAL_IPHONE_OS)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6143AAEC13FB940E0089B5C8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SimpleDragViews/SimpleDragViews-Prefix.pch";
+				INFOPLIST_FILE = "SimpleDragViews/SimpleDragViews-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		6143AAED13FB940E0089B5C8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SimpleDragViews/SimpleDragViews-Prefix.pch";
+				INFOPLIST_FILE = "SimpleDragViews/SimpleDragViews-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6143AAC413FB940D0089B5C8 /* Build configuration list for PBXProject "SimpleDragViews" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6143AAE913FB940E0089B5C8 /* Debug */,
+				6143AAEA13FB940E0089B5C8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6143AAEB13FB940E0089B5C8 /* Build configuration list for PBXNativeTarget "SimpleDragViews" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6143AAEC13FB940E0089B5C8 /* Debug */,
+				6143AAED13FB940E0089B5C8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6143AAC113FB940D0089B5C8 /* Project object */;
+}
